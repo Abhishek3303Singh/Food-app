@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>React Js</title>
+</head>
+<body>
+    <div id="root">
+        Not Render
+        <!-- <h1>Hello React</h1> -->
+    </div>
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+    // const heading = document.createElement('h1')
+    const header = React.createElement("h1",{
+        id:'head'
+    }, 'Hello React')
+
+    console.log(header)
+    // heading.innerHTML('Hello react from js')
+    // const root = document.getElementById('root')
+    const root1 = ReactDOM.getElementById()
+    // root.appendChild('heading')
+</script>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<!-- what is  async and defer -->
+<script>
+    // const element = createElement(type, props, ...children)
+    const heading =React.createElement("h1",{id:'title'},"Hello React from react")
+    // console.log(heading)
+    
+    const root = ReactDOM.createRoot(document.getElementById("root"))
+    root.render(heading)
+    
+    // here we are passing the react element inside Render function . which takes a react element and modify the dom.
+</script>
+</body>
+
+</html> 
+  
