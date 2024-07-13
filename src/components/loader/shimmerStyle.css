@@ -1,0 +1,120 @@
+/* .shimmer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+} */
+.shimmer-card{
+    position: relative;
+    -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+    border-radius: 6px;
+    height: 400px;
+    overflow: hidden;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+}
+.shimmer-bg{
+    height: 250px ;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #eef4f4;
+    background: linear-gradient(to right, #e3e7e8 8%, #F0F0F0 18%, #F6F6F6 33%);
+    background-size: 1200px 100%;
+}
+
+.shimmer-name{
+    width: 90%;
+    height: 20px;
+    background-color: #7faeb1;
+    margin: auto;
+    padding: 10px;
+    margin: 10px auto;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #7faeb1;
+    background: linear-gradient(to right, #acabab 8%, #b0aeae 18%, #e2e5e8 33%);
+    
+    background-size: 1200px 100%;
+
+}
+
+.shimmer-cuisins{
+    width: 90%;
+    height: 20px;
+    background-color: #7faeb1;
+    margin: auto;
+    padding: 10px;
+    margin: 10px auto;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #7faeb1;
+    background: linear-gradient(to right, #acabab 8%, #b0aeae 18%, #e2e5e8 33%);
+    
+    background-size: 1200px 100%;
+}
+.shimmer-stars{
+    width: 30%;
+    border-radius: 10px;
+    height: 20px;
+    background-color: #7faeb1;
+    margin: auto;
+    padding: 10px;
+    margin: 10px 15px;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #7faeb1;
+    background: linear-gradient(to right, #acabab 8%, #b0aeae 18%, #e2e5e8 33%);
+    
+    background-size: 1200px 100%;
+}
+
+.shimmer-time{
+    width: 90%;
+    height: 20px;
+    background-color: #7faeb1;
+    margin: auto;
+    padding: 10px;
+    margin: 10px auto;
+    animation-duration: 2.2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: shimmer;
+    animation-timing-function: linear;
+    background: #7faeb1;
+    background: linear-gradient(to right, #acabab 8%, #b0aeae 18%, #e2e5e8 33%);
+    background-size: 1200px 100%;
+}
+
+@-webkit-keyframes shimmer {
+        0% {
+            background-position: -100% 0;
+        }
+        100% {
+            background-position: 100% 0;
+        }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1200px 0;
+    }
+    100% {
+        background-position: 1200px 0;
+    }
+}
+

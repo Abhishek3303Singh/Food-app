@@ -1,0 +1,36 @@
+.cartMainContainer{
+    width: 90%;
+    margin:auto;
+    /* border: 1px solid gray; */
+    padding: 1vmax;
+    
+}
+.cartContainer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 1vmax 0;
+    padding: 1vmax;
+}
+.cartItemImg{
+    width: 4rem;
+    height: 4rem;
+}
+.cartItemName {
+    color: rgb(116, 142, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    
+}
+.cartItemPrice{
+    color: rgb(116, 142, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.cartIemPriceContaner{
+    width: 25%;
+    height: 200px;
+    background-color: aquamarine;
+}
